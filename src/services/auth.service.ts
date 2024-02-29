@@ -15,125 +15,38 @@ class AuthService {
   public users = userModel;
 
   public async signup(userData) {
-    if (isEmpty(userData)) throw new HttpException(400, 'userData is empty');
+    if (!userData) throw new HttpException(400, 'userData is empty');
     
     const signupSession = initializeDbConnection().session({ database: 'neo4j' });
     const createWalletSession = initializeDbConnection().session({ database: 'neo4j' });
 
-    const email = userData.data.email;
+    const email = userData.email;
     try {
       const findUser = await signupSession.executeRead(tx => tx.run('match (u:user {email: $email}) return u', { email: email }));
-      if (findUser.records.length > 0) return { message: `This email ${userData.data.email} already exists` };
-      const hashedPassword = await hash(userData.data.password, 10);
-      if (!userData.data.role || !userData.data.name || !userData.data.userName || !userData.data.password) return { message: 'mlissing data' };
-      switch (userData.data.role) {
-        case RolesEnum.SELLER:
-          if (!userData.data.phone || userData.data.plans.length == 0) return { message: 'data missing' };
-
-          const sellerCustomer = await stripe.customers.create({
-            name: userData.data.name,
-            email: email,
-            balance: 0,
-          });
-
-          const seller = await stripe.accounts.create({
-            email: userData.data.email,
-            type: 'express',
-          });
-
-          const createUserSeller = await signupSession.executeWrite(tx =>
+      if (findUser.records.length > 0) return { message: `This email ${userData.email} already exists` };
+      const hashedPassword = await hash(userData.password, 10);
+      if ( !userData.firstName || !userData.lastName || !userData.email || !userData.password || !userData.phoneNumber) return { message: 'mlissing data' };
+          const createdUserBuyer = await 
+          
+          signupSession.executeWrite(tx =>
             tx.run(
-              'create (u:user {id: $userId, name: $name, email: $email, userName: $userName, avatar: "", password: $password, createdAt: $createdAt, confirmed: false, verified: false, desactivated: false, phone: $phone, followers: $followers, followings: $followings})-[r: IS_A]->(s:seller {id: $sellerId, verified: $verified}) create (d:deviceToken {token: $token})<-[:logged_in_with]-(u) return u, s',
+              'create (u:user {id: $userId, name: $name, email: $email, phone: $phoneNumber, password: $password, createdAt: $createdAt}) return u',
               {
-                userId: sellerCustomer.id,
-                followers: 0,
-                followings: 0,
-                buyerId: uid.uid(40),
-                token: userData.data.deviceToken,
+                userId: uid.uid(40),
                 createdAt: moment().format('MMMM DD, YYYY'),
                 email: email,
-                userName: userData.data.userName,
-                name: userData.data.name,
-                password: hashedPassword,
-                sellerId: seller.id,
-                verified: false,
-                phone: userData.data.phone,
-              },
-            ),
-          );
-
-          await createWalletSession.executeWrite(tx =>
-            tx.run('match (s:seller {id: $sellerId}) create (s)-[:HAS_A]->(:wallet {id: $walletId, amount: 0.0})', {
-              sellerId: createUserSeller.records.map(record => record.get('s').properties.id)[0],
-              walletId: uid.uid(40),
-            }),
-          );
-
-          userData.data.plans.map(async (plan: any) => {
-            const createPlansSession = initializeDbConnection().session({ database: 'neo4j' });
-            try {
-              const stripeCreatedPlan = await stripe.products.create({
-                name: plan.name,
-              });
-              const stripeCreatedPrice = await stripe.prices.create({
-                currency: "EUR",
-                product: stripeCreatedPlan.id,
-                recurring: {
-                  interval: "month",
-                  interval_count: 1,
-                },
-                unit_amount: plan.price * 100
-              });
-
-              await createPlansSession.executeWrite(tx =>
-                tx.run('match (s:seller {id: $sellerId}) create (s)-[:HAS_A]->(:plan {id: $planId, name: $name, price: $price})', {
-                  sellerId: createUserSeller.records.map(record => record.get('s').properties.id)[0],
-                  planId: stripeCreatedPrice.id,
-                  name: plan.name,
-                  price: plan.price,
-                }),
-              );
-            } catch (error) {
-              console.log(error);
-            } finally {
-              createPlansSession.close();
-            }
-          });
-
-          const sellerToken = this.createToken(process.env.EMAIL_SECRET, createUserSeller.records.map(record => record.get('u').properties.id)[0]);
-
-          this.sendVerificationEmail(email, userData.data.userName, sellerToken.token, 'selling');
-          return { tokenData: sellerToken, data: createUserSeller.records.map(record => record.get('u').properties)[0], role: RolesEnum.SELLER };
-          break;
-        case RolesEnum.BUYER:
-          const buyer = await stripe.customers.create({
-            name: userData.data.name,
-            email: email,
-            balance: 0,
-          });
-
-          const createdUserBuyer = await signupSession.executeWrite(tx =>
-            tx.run(
-              'create (u:user {id: $userId, avatar: "", name: $name, email: $email, userName: $userName, password: $password, createdAt: $createdAt, confirmed: false})-[r: IS_A]->(b:buyer {id: $buyerId}) create (d:deviceToken {token: $token})<-[:logged_in_with]-(u) return u',
-              {
-                userId: buyer.id,
-                buyerId: uid.uid(40),
-                token: userData.data.deviceToken,
-                createdAt: moment().format('MMMM DD, YYYY'),
-                email: email,
-                userName: userData.data.userName,
-                name: userData.data.name,
+                phoneNumber: userData.phoneNumber,
+                name: `${userData.firstName} ${userData.lastName}`,
                 password: hashedPassword,
               },
             ),
           );
 
           const buyerToken = this.createToken(process.env.EMAIL_SECRET, createdUserBuyer.records.map(record => record.get('u').properties.id)[0]);
-          this.sendVerificationEmail(email, userData.data.userName, buyerToken.token, 'finding');
+          this.sendSignUpEmail(email);
 
-          return { tokenData: buyerToken, data: createdUserBuyer.records.map(record => record.get('u').properties)[0], role: RolesEnum.BUYER };
-          break;
-      }
+          return { tokenData: buyerToken, data: createdUserBuyer.records.map(record => record.get('u').properties)[0] };
+         
     } catch (error) {
       console.log(error);
     } finally {
@@ -142,18 +55,15 @@ class AuthService {
     }
   }
 
-  public async sendVerificationEmail(email: string, userName: string, token: string, role: string) {
+  public async sendSignUpEmail(email: string) {
     try {
       const mailOptions = {
         template: 'verifying_email',
-        from: process.env.USER,
-        to: email,
-        subject: 'Verifying Email',
+        from: process.env.USER_EMAIL,
+        to: process.env.USER_EMAIL,
+        subject: 'Signup alert',
         context: {
-          userName: userName,
-          token: token,
-          domain: process.env.DOMAIN,
-          role: role,
+          email: email,
         },
       };
 
@@ -239,7 +149,6 @@ class AuthService {
       const password = findUser.records.map(record => record.get('u').properties.password)[0];
       const isPasswordMatching = await compare(userData.data.password, password);
       const userId = findUser.records.map(record => record.get('u').properties.id)[0];
-      const deviceToken = userData.data.deviceToken;
 
       if (!isPasswordMatching) return { message: 'password or email is incorrect' };
 
@@ -248,15 +157,7 @@ class AuthService {
         userId,
       );
 
-      const role = await loginSession.executeRead(tx =>
-        tx.run('match (u:user {id: $id})-[:IS_A]-(r:seller) return r', { id: userId }),
-      );
-      
-      await loginSession.executeWrite(tx =>
-        tx.run('match (u:user {id: $id})-[:logged_in_with]->(d:deviceToken) set d.token = $token', { id: userId, token: deviceToken }),
-      );
-
-      return { tokenData, data: findUser.records.map(record => record.get('u').properties)[0], role: role.records.length == 0 ? 'Buyer' : 'Seller' };
+      return { tokenData, data: findUser.records.map(record => record.get('u').properties)[0]};
     } catch (error) {
       console.log(error);
     } finally {

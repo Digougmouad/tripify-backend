@@ -6,10 +6,33 @@ class postController {
 
   public getPopularAlbums = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-      const userId = String(req.params.id);
-      const popularPosts = await this.postService.getPopularAlbums(userId);
+      const popularPosts = await this.postService.getPopularAlbums();
 
       res.status(201).json({ popularPosts });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public buy = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const buyerData = req.body;
+      
+      await this.postService.buy(buyerData);
+
+      res.status(200);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public buyPack = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const buyerData = req.body;
+      
+      await this.postService.buyPack(buyerData);
+
+      res.status(200);
     } catch (error) {
       next(error);
     }
@@ -52,8 +75,7 @@ class postController {
 
   public getAllAlbums = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-      const userId = String(req.params.userId);
-      const allAlbums = await this.postService.getAllAlbums(userId);
+      const allAlbums = await this.postService.getAllAlbums();
       
 
       res.status(201).json({ allAlbums });
@@ -125,8 +147,18 @@ class postController {
   public createPost = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
       const postData = req.body;
-      const userId = String(req.params.id);
-      const createdPost = await this.postService.createPost(userId, postData);
+      const createdPost = await this.postService.createPost(postData);
+
+      res.status(201).json({ data: createdPost });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public createPack = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const packs = req.body;
+      const createdPost = await this.postService.createPack(packs);
 
       res.status(201).json({ data: createdPost });
     } catch (error) {
@@ -134,6 +166,15 @@ class postController {
     }
   };
   
+  public getPacks = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const packs = await this.postService.getPacks();
+
+      res.status(201).json({ data: packs });
+    } catch (error) {
+      next(error);
+    }
+  };
 
   public uploadPostPictures = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {

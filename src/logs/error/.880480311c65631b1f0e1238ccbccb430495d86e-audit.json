@@ -1,0 +1,65 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/gk/Documents/projects/tripify/src/logs/error/.880480311c65631b1f0e1238ccbccb430495d86e-audit.json",
+    "files": [
+        {
+            "date": 1707214148640,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/error/2024-02-06.log",
+            "hash": "c53eb2580f0b0cc088ecbd8880cce0f775a98d151ab42144815b54414780922b"
+        },
+        {
+            "date": 1707649762923,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/error/2024-02-11.log",
+            "hash": "31908e56aaafe22220096cc7e1327293975c97387a8fe584f76ae489cd24ae0a"
+        },
+        {
+            "date": 1707736744963,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/error/2024-02-12.log",
+            "hash": "ac0a3d12d23c340b959c779d892e8039328b17f82205e6f0efbbb1ee2c985abd"
+        },
+        {
+            "date": 1707831824593,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/error/2024-02-13.log",
+            "hash": "949d168cd2529a2addce4df9a2bbbef266970ad709725c0ecfd37a493be0baa0"
+        },
+        {
+            "date": 1707910278918,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/error/2024-02-14.log",
+            "hash": "f20138fd7a5e39e79ab38d7381ec5873fbf52da29b49c02e19c6a0d2fd6cfe05"
+        },
+        {
+            "date": 1708001997087,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/error/2024-02-15.log",
+            "hash": "2765ffcf5945900eb5c36f9ee15b46a1316e43da0e6663ef0c6d9bdb835cb7d9"
+        },
+        {
+            "date": 1708080259186,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/error/2024-02-16.log",
+            "hash": "40f21987313d3fdce0474a01b4057391eeea5598e772622e110061ea581d304d"
+        },
+        {
+            "date": 1708169426246,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/error/2024-02-17.log",
+            "hash": "860f0bb86a93663d5a81f6e95489972a1a7a869942ccfa5209c5eb91c42fa894"
+        },
+        {
+            "date": 1708938714582,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/error/2024-02-26.log",
+            "hash": "2e98f18e36bfd400a1a4d0826d1bad874ad2d1cea5f33ff47ec7cfce02e0e371"
+        },
+        {
+            "date": 1709045488581,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/error/2024-02-27.log",
+            "hash": "894f7f957a0b630e942ced815e45337557d83130d8c433e33e90dbb59083274c"
+        },
+        {
+            "date": 1709122057162,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/error/2024-02-28.log",
+            "hash": "f55a971b57544875c20d613affc3d612cc547a80f3327fdd6b447f07c5e34962"
+        }
+    ],
+    "hashType": "sha256"
+}

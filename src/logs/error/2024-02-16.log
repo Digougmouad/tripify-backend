@@ -1,0 +1,46 @@
+2024-02-16 03:26:58 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/gk/Documents/projects/tripify/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/gk/Documents/projects/tripify/node_modules/express/lib/router/index.js:521:19)
+    at postRoute.initializeRoutes (/Users/gk/Documents/projects/tripify/src/routes/post.route.ts:26:17)
+    at new postRoute (/Users/gk/Documents/projects/tripify/src/routes/post.route.ts:15:10)
+    at Object.<anonymous> (/Users/gk/Documents/projects/tripify/src/server.ts:14:99)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+2024-02-16 03:53:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m246[0m:[93m9[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m         else if (!error) {
+[7m   [0m [91m        ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m246[0m:[93m9[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m         else if (!error) {
+[7m   [0m [91m        ~~~~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-02-16 11:49:16 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1708112956001, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1708112956001, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)

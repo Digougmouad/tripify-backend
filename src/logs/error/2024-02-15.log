@@ -1,0 +1,29 @@
+2024-02-15 05:29:21 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/gk/Documents/projects/tripify/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/Users/gk/Documents/projects/tripify/node_modules/express/lib/router/index.js:521:19)
+    at postRoute.initializeRoutes (/Users/gk/Documents/projects/tripify/src/routes/post.route.ts:28:17)
+    at new postRoute (/Users/gk/Documents/projects/tripify/src/routes/post.route.ts:15:10)
+    at Object.<anonymous> (/Users/gk/Documents/projects/tripify/src/server.ts:14:99)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+2024-02-15 05:29:30 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/gk/Documents/projects/tripify/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/Users/gk/Documents/projects/tripify/node_modules/express/lib/router/index.js:521:19)
+    at postRoute.initializeRoutes (/Users/gk/Documents/projects/tripify/src/routes/post.route.ts:28:17)
+    at new postRoute (/Users/gk/Documents/projects/tripify/src/routes/post.route.ts:15:10)
+    at Object.<anonymous> (/Users/gk/Documents/projects/tripify/src/server.ts:14:99)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+2024-02-15 06:12:44 error: [GET] /events/createPack >> StatusCode:: 400, Message:: Unexpected token : in JSON at position 31
+2024-02-15 06:50:57 error: [GET] /events/packs >> StatusCode:: 500, Message:: subscribedPostsSession is not defined
+2024-02-15 07:13:11 error: [POST] /events/createPack >> StatusCode:: 400, Message:: Unexpected token ] in JSON at position 149
+2024-02-15 08:47:06 error: [GET] /events/packs >> StatusCode:: 500, Message:: subscribedPostsSession is not defined
+2024-02-15 08:47:34 error: [GET] /events/packs >> StatusCode:: 500, Message:: subscribedPostsSession is not defined
