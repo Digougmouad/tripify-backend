@@ -76,26 +76,24 @@ class postService {
   public async getPrivateTrips() {
     const getPrivateTripsSession = initializeDbConnection().session({ database: 'neo4j' });
     try {
-      const AlbumByCategory = await getPrivateTripsSession.executeRead(tx =>
+      const PrivateTrips = await getPrivateTripsSession.executeRead(tx =>
         tx.run(
           'match (picture:picture)<-[:HAS_A]-(:collection)<-[:HAS_A]-(post:post {private: true}) WITH post, collect(picture) AS pictures return post{post, pictures} order by post.likes limit 20',
 
         ),
       );
 
-      const albumPromise = AlbumByCategory.records.map(
+      return PrivateTrips.records.map(
         (record: any) =>
-          record._fields.map(async (field: any) => {
+          record._fields.map((field: any) => {
             return {
               albumData: field.post.properties,
-              pictres: await this.getPostPictures(field.post.properties.id)
+              pictres: field.pictures.map(picture => {
+                return picture.properties;
+              }),
             };
           })[0],
       );
-
-      const album = await Promise.all(albumPromise);
-
-      return album;
     } catch (error) {
       console.log(error);
     } finally {
