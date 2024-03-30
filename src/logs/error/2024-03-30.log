@@ -1,0 +1,276 @@
+2024-03-30 09:16:40 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815400809, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815400809, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:18:04 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815483864, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815483864, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:18:05 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815485251, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815485251, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:18:05 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815485385, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815485385, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:20:59 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815659133, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815659133, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:21:46 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815706434, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815706434, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:22:30 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815750645, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815750645, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:22:32 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815752351, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815752351, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:24:03 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815843907, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815843907, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:24:03 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815843940, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711815843940, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:29:44 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711816184524, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711816184524, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:29:45 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711816185415, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711816185415, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:29:45 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711816185421, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711816185421, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:31:55 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711816315783, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711816315783, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:40:48 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711816848346, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711816848346, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:54:05 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817645394, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817645394, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:54:54 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817694986, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817694986, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:54:55 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817695856, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817695856, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:57:49 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817869910, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817869910, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:57:49 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817869915, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817869915, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:57:50 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817870812, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817870812, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:59:11 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817951082, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817951082, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)
+2024-03-30 09:59:11 error: uncaughtException: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817951097, routers=[], readers=[], writers=[]]
+Neo4jError: Could not perform discovery. No routing servers available. Known routing table: RoutingTable[database=default database, expirationTime=0, currentTime=1711817951097, routers=[], readers=[], writers=[]]
+    at new Neo4jError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:77:16)
+    at newError (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-core/lib/error.js:113:12)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:704:68)
+    at step (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:100:23)
+    at Object.next (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:81:53)
+    at /Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:75:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:71:12)
+    at RoutingConnectionProvider._applyRoutingTableIfPossible (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:698:16)
+    at RoutingConnectionProvider.<anonymous> (/Users/gk/Documents/projects/tripify/node_modules/neo4j-driver-bolt-connection/lib/connection-provider/connection-provider-routing.js:508:55)

@@ -8,6 +8,9 @@ class postController {
     try {
       const popularPosts = await this.postService.getPopularAlbums();
 
+      console.log(popularPosts);
+      
+
       res.status(201).json({ popularPosts });
     } catch (error) {
       next(error);
@@ -155,6 +158,17 @@ class postController {
     }
   };
 
+  public createPrivatePost = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const postData = req.body;
+      const createdPost = await this.postService.createPrivatePost(postData);
+
+      res.status(201).json({ data: createdPost });
+    } catch (error) {
+      next(error);
+    }
+  };
+
   public createPack = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
       const packs = req.body;
@@ -171,6 +185,16 @@ class postController {
       const packs = await this.postService.getPacks();
 
       res.status(201).json({ data: packs });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public getPrivateTrips = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const privateTrips = await this.postService.getPrivateTrips();
+
+      res.status(201).json({ data: privateTrips });
     } catch (error) {
       next(error);
     }

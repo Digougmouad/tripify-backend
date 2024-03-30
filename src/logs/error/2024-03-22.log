@@ -1,0 +1,360 @@
+2024-03-22 09:04:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m115[0m:[93m61[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m115[0m       packs.records.map(record => console.log(record._fields:.post)
+[7m   [0m [91m                                                            ~[0m
+[96msrc/services/post.service.ts[0m:[93m115[0m:[93m62[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m115[0m       packs.records.map(record => console.log(record._fields:.post)
+[7m   [0m [91m                                                             ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m115[0m:[93m61[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m115[0m       packs.records.map(record => console.log(record._fields:.post)
+[7m   [0m [91m                                                            ~[0m
+[96msrc/services/post.service.ts[0m:[93m115[0m:[93m62[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m115[0m       packs.records.map(record => console.log(record._fields:.post)
+[7m   [0m [91m                                                             ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 09:08:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m115[0m:[93m54[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m115[0m       packs.records.map(record => console.log(record.));
+[7m   [0m [91m                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m115[0m:[93m54[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m115[0m       packs.records.map(record => console.log(record.));
+[7m   [0m [91m                                                     ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 09:18:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m123[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m123[0m                 return {data: post.properties, pictures: post.properties.id ==  };
+[7m   [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m123[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m123[0m                 return {data: post.properties, pictures: post.properties.id ==  };
+[7m   [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 09:18:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m123[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m123[0m                 return {data: post.properties, pictures: post.properties.id ==  };
+[7m   [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m123[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m123[0m                 return {data: post.properties, pictures: post.properties.id ==  };
+[7m   [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 09:20:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m123[0m:[93m143[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m123[0m                 return {data: post.properties, pictures: post.properties.id == record._fields[1].post.properties ? record._fields[1].pictures };
+[7m   [0m [91m                                                                                                                                              ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m123[0m:[93m143[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m123[0m                 return {data: post.properties, pictures: post.properties.id == record._fields[1].post.properties ? record._fields[1].pictures };
+[7m   [0m [91m                                                                                                                                              ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 09:21:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m123[0m:[93m146[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m123[0m                 return {data: post.properties, pictures: post.properties.id == record._fields[1].post.properties.id ? record._fields[1].pictures };
+[7m   [0m [91m                                                                                                                                                 ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m123[0m:[93m146[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m123[0m                 return {data: post.properties, pictures: post.properties.id == record._fields[1].post.properties.id ? record._fields[1].pictures };
+[7m   [0m [91m                                                                                                                                                 ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 09:42:21 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m129[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m129[0m             if()
+[7m   [0m [91m               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m129[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m129[0m             if()
+[7m   [0m [91m               ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 09:42:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m129[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m129[0m             if()
+[7m   [0m [91m               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m129[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m129[0m             if()
+[7m   [0m [91m               ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 09:42:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m129[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m129[0m             if()
+[7m   [0m [91m               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m129[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m129[0m             if()
+[7m   [0m [91m               ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 09:43:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m131[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m131[0m             if()
+[7m   [0m [91m               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m131[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m131[0m             if()
+[7m   [0m [91m               ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 09:43:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m131[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m131[0m             if()
+[7m   [0m [91m               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m131[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m131[0m             if()
+[7m   [0m [91m               ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 10:00:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m126[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m126[0m       console.log(filteredPachs.map(record) => Record._fields);
+[7m   [0m [91m                                            ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m126[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m126[0m       console.log(filteredPachs.map(record) => Record._fields);
+[7m   [0m [91m                                            ~~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 10:00:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m126[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m126[0m       console.log(filteredPachs.map((record) => record._fields);
+[7m   [0m [91m                                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m126[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m126[0m       console.log(filteredPachs.map((record) => record._fields);
+[7m   [0m [91m                                                               ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 10:44:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m128[0m:[93m27[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m128[0m                 pictures: };
+[7m   [0m [91m                          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m128[0m:[93m27[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m128[0m                 pictures: };
+[7m   [0m [91m                          ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 10:44:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m128[0m:[93m27[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m128[0m                 pictures: };
+[7m   [0m [91m                          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m128[0m:[93m27[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m128[0m                 pictures: };
+[7m   [0m [91m                          ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+2024-03-22 10:46:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m128[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m128[0m                   posts.map(newPost => {
+[7m   [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/post.service.ts[0m:[93m128[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m128[0m                   posts.map(newPost => {
+[7m   [0m [91m                       ~[0m
+
+    at createTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/gk/Documents/projects/tripify/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)

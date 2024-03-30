@@ -25,19 +25,18 @@ class AuthService {
       const findUser = await signupSession.executeRead(tx => tx.run('match (u:user {email: $email}) return u', { email: email }));
       if (findUser.records.length > 0) return { message: `This email ${userData.email} already exists` };
       const hashedPassword = await hash(userData.password, 10);
-      if ( !userData.firstName || !userData.lastName || !userData.email || !userData.password || !userData.phoneNumber) return { message: 'mlissing data' };
+      if ( !userData.firstName || !userData.lastName || !userData.email || !userData.phoneNumber) return { message: 'mlissing data' };
           const createdUserBuyer = await 
           
           signupSession.executeWrite(tx =>
             tx.run(
-              'create (u:user {id: $userId, name: $name, email: $email, phone: $phoneNumber, password: $password, createdAt: $createdAt}) return u',
+              'create (u:user {id: $userId, name: $name, email: $email, phone: $phoneNumber, createdAt: $createdAt}) return u',
               {
                 userId: uid.uid(40),
                 createdAt: moment().format('MMMM DD, YYYY'),
                 email: email,
                 phoneNumber: userData.phoneNumber,
                 name: `${userData.firstName} ${userData.lastName}`,
-                password: hashedPassword,
               },
             ),
           );
