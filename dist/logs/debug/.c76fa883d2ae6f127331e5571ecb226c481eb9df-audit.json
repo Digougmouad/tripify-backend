@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/gk/Documents/projects/tripify/dist/logs/debug/.c76fa883d2ae6f127331e5571ecb226c481eb9df-audit.json",
+    "files": [
+        {
+            "date": 1711916153346,
+            "name": "/Users/gk/Documents/projects/tripify/dist/logs/debug/2024-03-31.log",
+            "hash": "cffc5f636332eea74c67255d47710bb6cd1eb38f76ea8c207ea08d3e774eca77"
+        }
+    ],
+    "hashType": "sha256"
+}

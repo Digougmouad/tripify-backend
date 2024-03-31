@@ -1,0 +1,96 @@
+2024-03-29 09:58:52 info: =================================
+2024-03-29 09:58:52 info: ======= ENV: development =======
+2024-03-29 09:58:52 info: 🚀 App listening on the port 8000
+2024-03-29 09:58:52 info: =================================
+2024-03-29 09:59:02 info: =================================
+2024-03-29 09:59:02 info: ======= ENV: development =======
+2024-03-29 09:59:02 info: 🚀 App listening on the port 8000
+2024-03-29 09:59:02 info: =================================
+2024-03-29 09:59:39 info: [0mGET /events/private [0m-[0m - ms - -[0m
+2024-03-29 09:59:39 info: [0mGET /events [0m-[0m - ms - -[0m
+2024-03-29 09:59:43 info: [0mGET /events/private [0m-[0m - ms - -[0m
+2024-03-29 09:59:43 info: [0mGET /events [0m-[0m - ms - -[0m
+2024-03-29 10:00:24 info: =================================
+2024-03-29 10:00:24 info: ======= ENV: development =======
+2024-03-29 10:00:24 info: 🚀 App listening on the port 8000
+2024-03-29 10:00:24 info: =================================
+2024-03-29 10:03:32 info: =================================
+2024-03-29 10:03:32 info: ======= ENV: development =======
+2024-03-29 10:03:32 info: 🚀 App listening on the port 8000
+2024-03-29 10:03:32 info: =================================
+2024-03-29 10:06:52 info: =================================
+2024-03-29 10:06:52 info: ======= ENV: development =======
+2024-03-29 10:06:52 info: 🚀 App listening on the port 8000
+2024-03-29 10:06:52 info: =================================
+2024-03-29 10:09:24 info: =================================
+2024-03-29 10:09:24 info: ======= ENV: development =======
+2024-03-29 10:09:24 info: 🚀 App listening on the port 8000
+2024-03-29 10:09:24 info: =================================
+2024-03-29 10:10:54 info: [0mGET /events/packs [32m201[0m 1193.504 ms - -[0m
+2024-03-29 10:10:54 info: [0mGET /public/files/albums/postPicture5d0202ec5b38776a30110d588d7028a5be5591d517032024.0.jpeg [32m200[0m 3.827 ms - 11458[0m
+2024-03-29 10:10:54 info: [0mGET /public/files/albums/postPicture8f4c202005d0202ec5b38776a30110d588d7028a17032024.0.jpeg [32m200[0m 4.874 ms - 42108[0m
+2024-03-29 10:10:54 info: [0mGET /public/files/albums/postPicture8d6f0f8f4c202005d0202ec5b38776a30110d58805032024.0.jpeg [32m200[0m 6.674 ms - 123873[0m
+2024-03-29 10:10:54 info: [0mGET /public/files/albums/postPicture2005d0202ec5b38776a30110d588d7028a5be55945032024.0.jpeg [32m200[0m 3.995 ms - 185098[0m
+2024-03-29 10:10:54 info: [0mGET /public/files/albums/postPicturef0f8f4c202005d0202ec5b38776a30110d588d7007032024.0.jpeg [32m200[0m 6.989 ms - 295932[0m
+2024-03-29 10:10:55 info: [0mGET /events/packs [32m201[0m 1037.141 ms - -[0m
+2024-03-29 10:10:59 info: [0mGET /events [32m201[0m 627.852 ms - -[0m
+2024-03-29 10:10:59 info: [0mGET /public/files/albums/postPictureebb14c20df6b2f6338d6f0f8f4c202005d0202ec50032024.0.jpeg [32m200[0m 4.750 ms - 184815[0m
+2024-03-29 10:10:59 info: [0mGET /public/files/albums/postPicture6f22bd3cffb466d48b4449caad750886cd5196be32032024.0.jpeg [32m200[0m 3.759 ms - 112518[0m
+2024-03-29 10:10:59 info: [0mGET /public/files/albums/postPicturef6b2f6338d6f0f8f4c202005d0202ec5b38776a355032024.0.jpeg [32m200[0m 30.543 ms - 81950[0m
+2024-03-29 10:10:59 info: [0mGET /public/files/albums/postPicture20df6b2f6338d6f0f8f4c202005d0202ec5b387701032024.0.jpeg [32m200[0m 43.639 ms - 46756[0m
+2024-03-29 10:10:59 info: [0mGET /public/files/albums/postPicture14c20df6b2f6338d6f0f8f4c202005d0202ec5b308032024.0.jpeg [32m200[0m 36.818 ms - 575505[0m
+2024-03-29 10:10:59 info: [0mGET /events/private [32m201[0m 1377.432 ms - -[0m
+2024-03-29 10:10:59 info: [0mGET /events [32m201[0m 775.569 ms - -[0m
+2024-03-29 10:10:59 info: [0mGET /public/files/albums/postPicture743ca3a2e5b6521ec3a62ce3e3807b4e1a91c1e442032024.0.jpeg [32m200[0m 1.955 ms - 33272[0m
+2024-03-29 10:10:59 info: [0mGET /public/files/albums/postPictureae1f84144937bf46327696a506b3c1075229fe6e36032024.0.jpeg [32m200[0m 2.932 ms - 112518[0m
+2024-03-29 10:10:59 info: [0mGET /public/files/albums/postPicture59920180613d4829e916469c0d21a21aec0c6b0522032024.0.jpeg [32m200[0m 2.154 ms - 184815[0m
+2024-03-29 10:10:59 info: [0mGET /public/files/albums/postPicture20180613d4829e916469c0d21a21aec0c6b05c8927032024.0.jpeg [32m200[0m 2.801 ms - 575505[0m
+2024-03-29 10:10:59 info: [0mGET /public/files/albums/postPicturef177743ca3a2e5b6521ec3a62ce3e3807b4e1a9150032024.0.jpeg [32m200[0m 1.573 ms - 46756[0m
+2024-03-29 10:11:00 info: [0mGET /events/private [32m201[0m 991.321 ms - -[0m
+2024-03-29 10:11:01 info: [0mGET /public/files/albums/postPicture2f6338d6f0f8f4c202005d0202ec5b38776a301153032024.0.jpeg [32m200[0m 3.386 ms - 145776[0m
+2024-03-29 10:11:01 info: [0mGET /public/files/albums/postPictureca3a2e5b6521ec3a62ce3e3807b4e1a91c1e491b59032024.0.jpeg [32m200[0m 2.824 ms - 145776[0m
+2024-03-29 10:11:15 info: [0mGET /public/files/albums/postPicture02ec5b38776a30110d588d7028a5be5591d5838e59032024.0.jpeg [32m200[0m 15.631 ms - 64637[0m
+2024-03-29 10:11:17 info: [0mGET /public/files/albums/postPicturec5b38776a30110d588d7028a5be5591d5838e0a400032024.0.jpeg [32m200[0m 6.669 ms - 101019[0m
+2024-03-29 10:11:28 info: [0mGET /events/packs [32m201[0m 1108.333 ms - -[0m
+2024-03-29 10:11:29 info: [0mGET /events/packs [32m201[0m 968.069 ms - -[0m
+2024-03-29 10:11:31 info: [0mGET /events [32m201[0m 604.129 ms - -[0m
+2024-03-29 10:11:31 info: [0mGET /public/files/albums/postPicture6f22bd3cffb466d48b4449caad750886cd5196be32032024.0.jpeg [32m200[0m 1.166 ms - 112518[0m
+2024-03-29 10:11:31 info: [0mGET /public/files/albums/postPicture20df6b2f6338d6f0f8f4c202005d0202ec5b387701032024.0.jpeg [32m200[0m 0.875 ms - 46756[0m
+2024-03-29 10:11:31 info: [0mGET /public/files/albums/postPictureebb14c20df6b2f6338d6f0f8f4c202005d0202ec50032024.0.jpeg [32m200[0m 2.262 ms - 184815[0m
+2024-03-29 10:11:31 info: [0mGET /public/files/albums/postPicturef6b2f6338d6f0f8f4c202005d0202ec5b38776a355032024.0.jpeg [32m200[0m 2.889 ms - 81950[0m
+2024-03-29 10:11:31 info: [0mGET /public/files/albums/postPicture14c20df6b2f6338d6f0f8f4c202005d0202ec5b308032024.0.jpeg [32m200[0m 2.602 ms - 575505[0m
+2024-03-29 10:11:31 info: [0mGET /public/files/albums/postPicture2f6338d6f0f8f4c202005d0202ec5b38776a301153032024.0.jpeg [32m200[0m 1.264 ms - 145776[0m
+2024-03-29 10:11:31 info: [0mGET /public/files/albums/postPicturef0f8f4c202005d0202ec5b38776a30110d588d7007032024.0.jpeg [32m200[0m 1.600 ms - 295932[0m
+2024-03-29 10:11:31 info: [0mGET /public/files/albums/postPicture8d6f0f8f4c202005d0202ec5b38776a30110d58805032024.0.jpeg [32m200[0m 1.920 ms - 123873[0m
+2024-03-29 10:11:31 info: [0mGET /public/files/albums/postPicture8f4c202005d0202ec5b38776a30110d588d7028a17032024.0.jpeg [32m200[0m 2.202 ms - 42108[0m
+2024-03-29 10:11:32 info: [0mGET /events [32m201[0m 488.165 ms - -[0m
+2024-03-29 10:11:32 info: [0mGET /public/files/albums/postPicture2005d0202ec5b38776a30110d588d7028a5be55945032024.0.jpeg [32m200[0m 2.979 ms - 185098[0m
+2024-03-29 10:11:33 info: [0mGET /public/files/albums/postPicture5d0202ec5b38776a30110d588d7028a5be5591d517032024.0.jpeg [32m200[0m 1.586 ms - 11458[0m
+2024-03-29 10:11:33 info: [0mGET /public/files/albums/postPicture02ec5b38776a30110d588d7028a5be5591d5838e59032024.0.jpeg [32m200[0m 1.025 ms - 64637[0m
+2024-03-29 10:11:33 info: [0mGET /public/files/albums/postPicturec5b38776a30110d588d7028a5be5591d5838e0a400032024.0.jpeg [32m200[0m 1.498 ms - 101019[0m
+2024-03-29 10:11:40 info: [0mGET /events [32m201[0m 476.903 ms - -[0m
+2024-03-29 10:11:40 info: [0mGET /events [32m201[0m 471.917 ms - -[0m
+2024-03-29 10:11:40 info: [0mGET /events/private [32m201[0m 1183.096 ms - -[0m
+2024-03-29 10:11:41 info: [0mGET /events/private [32m201[0m 901.470 ms - -[0m
+2024-03-29 10:17:45 info: [0mGET /events [32m201[0m 630.096 ms - -[0m
+2024-03-29 10:17:45 info: [0mGET /public/files/albums/postPicture20df6b2f6338d6f0f8f4c202005d0202ec5b387701032024.0.jpeg [32m200[0m 8.272 ms - 46756[0m
+2024-03-29 10:17:45 info: [0mGET /public/files/albums/postPicture6f22bd3cffb466d48b4449caad750886cd5196be32032024.0.jpeg [32m200[0m 8.182 ms - 112518[0m
+2024-03-29 10:17:45 info: [0mGET /public/files/albums/postPicturef6b2f6338d6f0f8f4c202005d0202ec5b38776a355032024.0.jpeg [32m200[0m 11.111 ms - 81950[0m
+2024-03-29 10:17:45 info: [0mGET /public/files/albums/postPictureebb14c20df6b2f6338d6f0f8f4c202005d0202ec50032024.0.jpeg [32m200[0m 9.302 ms - 184815[0m
+2024-03-29 10:17:45 info: [0mGET /public/files/albums/postPicture8d6f0f8f4c202005d0202ec5b38776a30110d58805032024.0.jpeg [32m200[0m 5.792 ms - 123873[0m
+2024-03-29 10:17:45 info: [0mGET /public/files/albums/postPicture2f6338d6f0f8f4c202005d0202ec5b38776a301153032024.0.jpeg [32m200[0m 11.805 ms - 145776[0m
+2024-03-29 10:17:45 info: [0mGET /public/files/albums/postPicture8f4c202005d0202ec5b38776a30110d588d7028a17032024.0.jpeg [32m200[0m 7.662 ms - 42108[0m
+2024-03-29 10:17:45 info: [0mGET /public/files/albums/postPicturef0f8f4c202005d0202ec5b38776a30110d588d7007032024.0.jpeg [32m200[0m 5.311 ms - 295932[0m
+2024-03-29 10:17:45 info: [0mGET /public/files/albums/postPicture14c20df6b2f6338d6f0f8f4c202005d0202ec5b308032024.0.jpeg [32m200[0m 8.424 ms - 575505[0m
+2024-03-29 10:17:45 info: [0mGET /events [32m201[0m 521.957 ms - -[0m
+2024-03-29 10:17:46 info: [0mGET /public/files/albums/postPicture2005d0202ec5b38776a30110d588d7028a5be55945032024.0.jpeg [32m200[0m 1.936 ms - 185098[0m
+2024-03-29 10:17:46 info: [0mGET /public/files/albums/postPicture5d0202ec5b38776a30110d588d7028a5be5591d517032024.0.jpeg [32m200[0m 1.115 ms - 11458[0m
+2024-03-29 10:17:46 info: [0mGET /public/files/albums/postPicture02ec5b38776a30110d588d7028a5be5591d5838e59032024.0.jpeg [32m200[0m 3.138 ms - 64637[0m
+2024-03-29 10:17:46 info: [0mGET /public/files/albums/postPicturec5b38776a30110d588d7028a5be5591d5838e0a400032024.0.jpeg [32m200[0m 1.074 ms - 101019[0m
+2024-03-29 10:17:51 info: [0mGET /events/packs [32m201[0m 980.001 ms - -[0m
+2024-03-29 10:17:51 info: [0mGET /public/files/albums/postPicture8f4c202005d0202ec5b38776a30110d588d7028a17032024.0.jpeg [32m200[0m 1.954 ms - 42108[0m
+2024-03-29 10:17:51 info: [0mGET /public/files/albums/postPicture5d0202ec5b38776a30110d588d7028a5be5591d517032024.0.jpeg [32m200[0m 2.489 ms - 11458[0m
+2024-03-29 10:17:51 info: [0mGET /public/files/albums/postPicture8d6f0f8f4c202005d0202ec5b38776a30110d58805032024.0.jpeg [32m200[0m 2.916 ms - 123873[0m
+2024-03-29 10:17:51 info: [0mGET /public/files/albums/postPicture2005d0202ec5b38776a30110d588d7028a5be55945032024.0.jpeg [32m200[0m 2.587 ms - 185098[0m
+2024-03-29 10:17:51 info: [0mGET /public/files/albums/postPicturef0f8f4c202005d0202ec5b38776a30110d588d7007032024.0.jpeg [32m200[0m 2.032 ms - 295932[0m
+2024-03-29 10:17:52 info: [0mGET /events/packs [32m201[0m 931.814 ms - -[0m

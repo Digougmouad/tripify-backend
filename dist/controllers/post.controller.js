@@ -32,11 +32,29 @@ let postController = class postController {
         _define_property(this, "postService", new _postservice.default());
         _define_property(this, "getPopularAlbums", async (req, res, next)=>{
             try {
-                const userId = String(req.params.id);
-                const popularPosts = await this.postService.getPopularAlbums(userId);
+                const popularPosts = await this.postService.getPopularAlbums();
+                console.log(popularPosts);
                 res.status(201).json({
                     popularPosts
                 });
+            } catch (error) {
+                next(error);
+            }
+        });
+        _define_property(this, "buy", async (req, res, next)=>{
+            try {
+                const buyerData = req.body;
+                await this.postService.buy(buyerData);
+                res.status(200);
+            } catch (error) {
+                next(error);
+            }
+        });
+        _define_property(this, "buyPack", async (req, res, next)=>{
+            try {
+                const buyerData = req.body;
+                await this.postService.buyPack(buyerData);
+                res.status(200);
             } catch (error) {
                 next(error);
             }
@@ -75,8 +93,7 @@ let postController = class postController {
         });
         _define_property(this, "getAllAlbums", async (req, res, next)=>{
             try {
-                const userId = String(req.params.userId);
-                const allAlbums = await this.postService.getAllAlbums(userId);
+                const allAlbums = await this.postService.getAllAlbums();
                 res.status(201).json({
                     allAlbums
                 });
@@ -140,10 +157,51 @@ let postController = class postController {
         _define_property(this, "createPost", async (req, res, next)=>{
             try {
                 const postData = req.body;
-                const userId = String(req.params.id);
-                const createdPost = await this.postService.createPost(userId, postData);
+                const createdPost = await this.postService.createPost(postData);
                 res.status(201).json({
                     data: createdPost
+                });
+            } catch (error) {
+                next(error);
+            }
+        });
+        _define_property(this, "createPrivatePost", async (req, res, next)=>{
+            try {
+                const postData = req.body;
+                const createdPost = await this.postService.createPrivatePost(postData);
+                res.status(201).json({
+                    data: createdPost
+                });
+            } catch (error) {
+                next(error);
+            }
+        });
+        _define_property(this, "createPack", async (req, res, next)=>{
+            try {
+                const packs = req.body;
+                const createdPost = await this.postService.createPack(packs);
+                res.status(201).json({
+                    data: createdPost
+                });
+            } catch (error) {
+                next(error);
+            }
+        });
+        _define_property(this, "getPacks", async (req, res, next)=>{
+            try {
+                const packs = await this.postService.getPacks();
+                res.status(201).json({
+                    data: packs
+                });
+            } catch (error) {
+                next(error);
+            }
+        });
+        _define_property(this, "getPrivateTrips", async (req, res, next)=>{
+            try {
+                const privateTrips = await this.postService.getPrivateTrips();
+                res.status(201).json({
+                    data: privateTrips
                 });
             } catch (error) {
                 next(error);

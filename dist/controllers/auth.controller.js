@@ -32,7 +32,7 @@ let AuthController = class AuthController {
         _define_property(this, "authService", new _authservice.default());
         _define_property(this, "signUp", async (req, res, next)=>{
             try {
-                const userData = req.body;
+                const userData = req.body.data;
                 const signUpUserData = await this.authService.signup(userData);
                 signUpUserData.message ? res.status(400).json(signUpUserData) : res.status(201).json(signUpUserData);
             } catch (error) {
@@ -44,6 +44,15 @@ let AuthController = class AuthController {
                 const userData = req.body;
                 const loggedInData = await this.authService.login(userData);
                 loggedInData.message ? res.status(403).json(loggedInData) : res.status(200).json(loggedInData);
+            } catch (error) {
+                console.log(error);
+            }
+        });
+        _define_property(this, "resendVerificationEMail", async (req, res, next)=>{
+            try {
+                const email = String(req.params.email);
+                await this.authService.resendVerificationEmail(email);
+                res.status(200);
             } catch (error) {
                 console.log(error);
             }
