@@ -4,6 +4,9 @@
   "description": "TypeScript + Express API Server",
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "18.17.0"
+  },
   "scripts": {
     "start": "npm run build && cross-env NODE_ENV=development node dist/server.js",
     "dev": "cross-env NODE_ENV=development nodemon",
