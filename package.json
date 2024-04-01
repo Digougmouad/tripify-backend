@@ -8,9 +8,8 @@
     "node": "18.17.0"
   },
   "scripts": {
-    "start": "npm install && cross-env NODE_ENV=development node dist/server.js",
-    "dev": "npm install && cross-env NODE_ENV=development nodemon",
-    "build.digitalocean": "npm install && cross-env NODE_ENV=development nodemon",
+    "start": "cross-env NODE_ENV=development nodemon",
+    "dev": "cross-env NODE_ENV=development nodemon",
     "build": "swc src -d dist --source-maps --copy-files",
     "build:tsc": "tsc && tsc-alias",
     "test": "jest --forceExit --detectOpenHandles",
