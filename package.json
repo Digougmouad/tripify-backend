@@ -10,6 +10,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development nodemon",
     "dev": "cross-env NODE_ENV=development nodemon",
+    "build.digitalocean": "cross-env NODE_ENV=development nodemon",
     "build": "swc src -d dist --source-maps --copy-files",
     "build:tsc": "tsc && tsc-alias",
     "test": "jest --forceExit --detectOpenHandles",
