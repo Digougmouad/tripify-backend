@@ -94,6 +94,11 @@
             "date": 1711918217521,
             "name": "/Users/gk/Documents/projects/tripify/src/logs/debug/2024-03-31.log",
             "hash": "9763db8a4f892c5f2b1b06d4b9759302fc650e49e67ece08b55e684f5d4fdc1a"
+        },
+        {
+            "date": 1713101550091,
+            "name": "/Users/gk/Documents/projects/tripify/src/logs/debug/2024-04-14.log",
+            "hash": "7567d2c78408b120c69fdaec5a423a61f1ab46d5256f24bbdea50b7ebb3937c1"
         }
     ],
     "hashType": "sha256"

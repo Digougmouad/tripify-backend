@@ -6,3 +6,31 @@
 2024-03-31 17:27:11 info: ======= ENV: development =======
 2024-03-31 17:27:11 info: 🚀 App listening on the port 4000
 2024-03-31 17:27:11 info: =================================
+2024-03-31 19:29:56 info: =================================
+2024-03-31 19:29:56 info: ======= ENV: development =======
+2024-03-31 19:29:56 info: 🚀 App listening on the port 4000
+2024-03-31 19:29:56 info: =================================
+2024-03-31 19:30:25 info: [0mGET /events/private [32m201[0m 626.380 ms - -[0m
+2024-03-31 19:30:25 info: [0mGET /events [32m201[0m 638.917 ms - -[0m
+2024-03-31 19:30:26 info: [0mGET /events/private [36m304[0m 484.222 ms - -[0m
+2024-03-31 19:30:26 info: [0mGET /events/private [32m201[0m 433.839 ms - -[0m
+2024-03-31 19:30:26 info: [0mGET /events [36m304[0m 497.370 ms - -[0m
+2024-03-31 19:30:26 info: [0mGET /events [32m201[0m 486.044 ms - -[0m
+2024-03-31 19:30:37 info: [0mGET /events/private [36m304[0m 447.512 ms - -[0m
+2024-03-31 19:30:37 info: [0mGET /events/private [32m201[0m 429.745 ms - -[0m
+2024-03-31 19:30:37 info: [0mGET /events [36m304[0m 485.559 ms - -[0m
+2024-03-31 19:30:37 info: [0mGET /events [32m201[0m 469.992 ms - -[0m
+2024-03-31 19:31:42 info: [0mGET /events/private [32m201[0m 446.642 ms - -[0m
+2024-03-31 19:31:42 info: [0mGET /events [32m201[0m 479.938 ms - -[0m
+2024-03-31 19:33:02 info: [0mGET /events/private [36m304[0m 501.545 ms - -[0m
+2024-03-31 19:33:02 info: [0mGET /events/private [32m201[0m 471.503 ms - -[0m
+2024-03-31 19:33:02 info: [0mGET /events [36m304[0m 521.454 ms - -[0m
+2024-03-31 19:33:02 info: [0mGET /events [32m201[0m 502.555 ms - -[0m
+2024-03-31 19:33:32 info: [0mGET /events/private [36m304[0m 621.218 ms - -[0m
+2024-03-31 19:33:32 info: [0mGET /events/private [32m201[0m 602.560 ms - -[0m
+2024-03-31 19:33:32 info: [0mGET /events [36m304[0m 670.629 ms - -[0m
+2024-03-31 19:33:32 info: [0mGET /events [32m201[0m 715.241 ms - -[0m
+2024-03-31 19:34:34 info: [0mGET /events/private [36m304[0m 529.046 ms - -[0m
+2024-03-31 19:34:34 info: [0mGET /events/private [32m201[0m 538.602 ms - -[0m
+2024-03-31 19:34:35 info: [0mGET /events [32m201[0m 577.863 ms - -[0m
+2024-03-31 19:34:35 info: [0mGET /events [36m304[0m 618.580 ms - -[0m
