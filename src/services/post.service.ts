@@ -293,7 +293,8 @@ class postService {
 
   public async buyPack(buyerData: any) {
     try {
-      console.log(buyerData.data.tripDate);
+      console.log(process.env.USER_EMAIL);
+      console.log(process.env.PASS);
 
       const mailOptions = {
         html: `div><h1>Tripify</h1><h3>Welcome back</h3><p>A user just bought a pack </p><p>name: ${buyerData.data.name} </p><p>email: ${buyerData.data.email}</p><p>phone number: ${buyerData.data.phone}</p><p>pack title: ${buyerData.data.tripTitle}</p><p>pack price: ${buyerData.data.tripPrice}</p><p>date: ${buyerData.data.tripDate}</p><p>Persons Number: ${buyerData.data.personsNum}</p></div>`,
